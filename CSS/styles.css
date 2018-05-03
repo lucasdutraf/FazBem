@@ -8,11 +8,11 @@ body {
 }
 
 h1, h3, h4, header .btn {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 h1 {
-  margin: 100px 0 20px;
+  margin: 200px 0 20px;
   text-transform: uppercase;
   font-size: 5rem;
 }
@@ -69,25 +69,15 @@ a {
 /* HEADER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-header .btn {
-  text-transform: uppercase;
-}
-
 header a:hover, .about a:hover {
   background: #fcc316;
 }
 
-header .btn, .services {
-  margin-top: 100px;
-}
 
 header {
-  padding: 80px 0 150px;
+  padding: 100px 0 350px;
 }
 
-.about, .contact {
-  padding: 150px 0;
-}
 
 header {
   background: url("https://unsplash.it/1080/720/?image=377") no-repeat fixed center / cover;
@@ -104,9 +94,6 @@ nav li, .contact li {
   display: inline-block;
 }
 
-nav li {
-  width: 50%;
-}
 
 nav a {
   position: relative;
@@ -114,18 +101,6 @@ nav a {
   height: 30px;
   padding: 7px 0;
   line-height: 30px;
-}
-
-nav li:nth-child(2n+1) a:after {
-  position: absolute;
-  content: '';
-  top: 19.5px;
-  right: -2.5px;
-  z-index: 10;
-  border-radius: 100%;
-  background: steelblue;
-  width: 5px;
-  height: 5px;
 }
 
 
@@ -144,21 +119,16 @@ nav li:nth-child(2n+1) a:after {
   color: black;
 }
 
-.services span {
-  font-size: 5.5em;
-  color: #f4ba04;
-}
-
-.services a:hover span {
-  color: white;
-}
-
 .services p {
   margin: 15px 0 0;
 }
 
 
+.fundo-liso {
 
+  background: black no-repeat fixed center ;
+  text-align: center;
+}
 
 /* MEDIA QUERIES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
