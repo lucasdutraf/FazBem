@@ -165,24 +165,48 @@ nav li:nth-child(2n+1) a:after {
 /* SERVICES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.tipo-ajuda {
+
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+
+}
+
 .tipo-ajuda a {
+ 
   padding: 20px;
   background: #2196F3;
   margin-top: 10px;
-  
-   
   border-radius: 20px;
 
 }
-.tipo-ajuda a:last-child {
+.tipo-ajuda a {
 
-  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.tipo-ajuda p {
+  margin: 15px 0 0;
 }
 
 
 
-.tipo-ajuda p {
-  margin: 15px 0 0;
+.rodape {
+	
+	border-top: solid 5px #fff;
+	border-bottom: solid 5px #0D47A1;
+	margin-top: 20px;
+	background: #0D47A1;
+	
+}
+.rodape h2 {
+
+	margin: 20px;
+	font-size:20px;
+	color: #fff;
 }
 
 
