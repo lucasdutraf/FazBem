@@ -69,6 +69,16 @@ a {
 /* HEADER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+header .btn {
+  text-transform: uppercase;
+}
+header a:hover, .about a:hover {
+  background: #fcc316;
+}
+
+header .btn, .services {
+  margin-top: 100px;
+}
 header a:hover, .about a:hover {
   background: #fcc316;
 }
@@ -80,7 +90,7 @@ header {
 
 
 header {
-  background: url("https://unsplash.it/1080/720/?image=377") no-repeat fixed center / cover;
+  background: url(../img/bg.jpg) no-repeat fixed center / cover;
   text-align: center;
 }
 
@@ -95,6 +105,7 @@ nav li, .contact li {
 }
 
 
+
 nav a {
   position: relative;
   width: 100%;
@@ -103,6 +114,21 @@ nav a {
   line-height: 30px;
 }
 
+nav li {
+  width: 50%;
+}
+
+nav li:nth-child(2n+1) a:after {
+  position: absolute;
+  content: '';
+  top: 19.5px;
+  right: -2.5px;
+  z-index: 10;
+  border-radius: 100%;
+  background: steelblue;
+  width: 5px;
+  height: 5px;
+}
 
 
 /* SERVICES STYLES
