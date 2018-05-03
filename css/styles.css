@@ -12,7 +12,6 @@ h1, h3, h4, header .btn {
 }
 
 
-
 .titulo {
   margin: 230px 0 20px;
   text-transform: uppercase;
@@ -143,18 +142,14 @@ nav li:nth-child(2n+1) a:after {
 /* SERVICES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.services a {
-  padding: 25px;
+.casas a {
+  padding: 30px;
   background: #0D47A1;
-  margin-top: 20px;
-  border-radius: 4px;
+  margin-top: 30px;
+  border-radius: 20px;
 }
 
-.services a:hover {
-  color: black;
-}
-
-.services p {
+.casas p {
   margin: 15px 0 0;
 }
 
@@ -193,16 +188,10 @@ nav li:nth-child(2n+1) a:after {
   }
 
   header a:hover, .about a:hover {
-    box-shadow: 0 8px #f4ba04;
+    box-shadow: 0 8px #d19d00;
   }
 
-  header a:active, .about a:active {
-    box-shadow: 0 4px #f4ba04;
-    -webkit-transform: translateY(4px);
-        -ms-transform: translateY(4px);
-            transform: translateY(4px);
-  }
-
+ 
   .about .one-third {
     margin-top: 0;
   }
@@ -221,11 +210,12 @@ nav li:nth-child(2n+1) a:after {
 
 @media (min-width: 750px) {
 
-  .services a:hover {
-    box-shadow: 0 -8px white;
-    -webkit-transform: scale(1.15);
-        -ms-transform: scale(1.15);
-            transform: scale(1.15);
+  .casas a:hover {
+    background: #fcc316;
+    box-shadow: 0 8px #d19d00;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
   }
   
   .contact ul a {
