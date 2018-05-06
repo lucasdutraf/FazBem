@@ -62,20 +62,7 @@ h4 {
   height: 100px;
 }
 
-.rodape {
-	
-	border-top: solid 5px #fff;
-	border-bottom: solid 5px #0D47A1;
-	margin-top: 20px;
-	background: #0D47A1;
-	
-}
-.rodape h2 {
 
-	margin: 20px;
-	font-size:20px;
-	color: #fff;
-}
 
 @media (min-width: 500px) {
 
