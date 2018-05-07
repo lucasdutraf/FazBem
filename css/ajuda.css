@@ -20,8 +20,9 @@
   
 }
 
-h4 {
-  font-size: 2rem;
+.titulo-botao-ajuda {
+
+  font-size: 35px;
 }
 
 
@@ -36,10 +37,6 @@ h4 {
   
 }
 
-.ajuda-botao {
-
-
-}
 
 .ajuda-botao a {
  
@@ -58,6 +55,8 @@ h4 {
   width: 100px;
   height: 100px;
 }
+
+.
 
 
 
