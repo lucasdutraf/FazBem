@@ -33,30 +33,28 @@ h4 {
 
   justify-content: space-around;
   margin-bottom: 100px;
+  flex-wrap: wrap;
 
 }
 
-.tipo-ajuda a {
+.ajuda-botao {
+
+
+}
+
+.ajuda-botao a {
  
   padding: 20px;
   background: #2196F3;
   margin-top: 10px;
   border-radius: 20px;
   height: 200px;
-
-}
-.tipo-ajuda a {
-
-  margin-top: 60px;
+  margin-top: 60px
 }
 
-.tipo-ajuda p {
-  margin: 15px 0 0;
-}
+.money-img{
 
-
-.ajuda-botao img{
-
+  content:url(../img/money.svg);
   margin-top: 30px;
   width: 100px;
   height: 100px;
@@ -66,7 +64,7 @@ h4 {
 
 @media (min-width: 500px) {
 
-  .tipo-ajuda a:hover {
+  .ajuda-botao a:hover {
     background: #fcc316;
     box-shadow: 0 8px #d19d00;
     -webkit-transform: scale(1.05);
