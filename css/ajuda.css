@@ -29,12 +29,11 @@ h4 {
 
 
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 
   justify-content: space-around;
   margin-bottom: 100px;
-  flex-wrap: wrap;
-
+  
 }
 
 .ajuda-botao {
