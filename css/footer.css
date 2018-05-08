@@ -1,6 +1,7 @@
 .rodape {
 	
 	border-top: solid 5px #fff;
+	padding: 20px;
 	border-bottom: solid 5px #222222;
 	margin-top: 20px;
 	background: #222222;
@@ -8,7 +9,7 @@
 }
 .rodape h2 {
 
-	margin: 20px;
+	padding: 20px;
 	font-size:20px;
 	color: #fff;
 }

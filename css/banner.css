@@ -10,12 +10,16 @@ header {
 .titulo {
   margin: 230px 0 20px;
   font-size: 5rem;
-  text-shadow: 0px 4px 10px #000; 
+  text-shadow: 0px 5px 5px #000; 
 }
 
 .faz-bem {
 
   color: #4ABDAC;
-  text-shadow: 0px 4px 10px #000; 
+  text-shadow: 0px 5px 5px #000; 
 }
 
+body {
+
+		border-bottom: solid 5px #222222;
+}

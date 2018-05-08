@@ -2,7 +2,7 @@
 .fundo-liso {	
 	
 
-	background: #DFDCE3;
+	background: rgba(66, 66, 66, 0.57);
 	border-top: solid 5px white;
   border-bottom: solid 5px white;
 
@@ -45,7 +45,7 @@
 
 	position: absolute;
 	
-	margin-top: 100px;
+	margin-top: 120px;
 	margin-left: 50%;
 	transform: translate(-50%, -50%);
 
@@ -77,8 +77,8 @@
   box-shadow: 0 8px rgb(42, 119, 108);
   border-radius: 5px;
   height: 220px;
-  margin-top: 250px;
-  margin-bottom: 130px;
+  margin-top: 300px;
+  margin-bottom: 80px;
 
 }
 
