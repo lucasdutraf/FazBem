@@ -53,29 +53,25 @@
 
   content:url(../img/money.svg);
   margin-top: 30px;
-  width: 100px;
-  height: 100px;
+  max-width: 153px;
 }
 
 .food-img {
   content:url(../img/food.svg);
-  margin-top: 30px;
-  width: 100px;
-  height: 100px;
+  margin-top: 22px;
+
 }
 
 .medicine-img {
   content:url(../img/medicine.svg);
-  margin-top: 30px;
-  width: 100px;
-  height: 100px;
+  margin-top: 20px;
+  max-width: 153px;
 }
 
 .clothes-img {
   content:url(../img/hoodie.svg);
-  margin-top: 30px;
-  width: 100px;
-  height: 100px;
+  margin-top: 25px;
+  max-width: 153px;
 }
 
 @media (min-width: 500px) {
