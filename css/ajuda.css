@@ -2,7 +2,7 @@
 .fundo-liso {	
 	
 
-	background: #0D47A1;
+	background: #DFDCE3;
 	border-top: solid 5px white;
   
   text-align: center;
@@ -10,9 +10,9 @@
 	
 	background-image: linear-gradient(135deg, transparent, 
 		                                  transparent 14px, 
-		                                  rgba(0, 0, 0, 0.5) 16px,
-		                                  rgba(0, 0, 0, 0.5) 16px, 
-		                                  transparent 15px,
+                                      rgb(205, 202, 209) 16px,
+		                                  rgb(205, 202, 209) 16px, 
+		                                  transparent 0px,
 		                                  transparent);
 	background-size: 20px 20px;
 	background-attachment: fixed;
@@ -41,9 +41,10 @@
 .ajuda-botao a {
  
   padding: 20px;
-  background: #2196F3;
+  background: #4ABDAC;
+  box-shadow: 0 8px rgb(42, 119, 108);
   margin-top: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   height: 200px;
   margin-top: 60px
 }
@@ -56,12 +57,32 @@
   height: 100px;
 }
 
+.food-img {
+  content:url(../img/food.svg);
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.medicine-img {
+  content:url(../img/medicine.svg);
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.clothes-img {
+  content:url(../img/hoodie.svg);
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
 
 @media (min-width: 500px) {
 
   .ajuda-botao a:hover {
-    background: #fcc316;
-    box-shadow: 0 8px #d19d00;
+    background: #F7B733;
+    box-shadow: 0 8px rgb(180, 133, 38);
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
             transform: scale(1.05);
