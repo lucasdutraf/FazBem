@@ -1,5 +1,11 @@
 
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(31, 31, 31);
+  font-size: 15px;
+  opacity: 1; /* Firefox */
+}
+
 .contato-form {
   border-top: #fff dashed 4px;
   padding: 60px;
@@ -11,7 +17,7 @@
   
   font-size: 40px;
   margin-bottom: 35px;
-  color: black;
+  color: rgb(31, 31, 31);;
   text-transform: uppercase;
 }
 
