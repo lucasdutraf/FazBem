@@ -23,6 +23,35 @@
 }
 
 
+.titulo-ajuda {
+
+	font-size: 30px;
+	text-align: center;
+
+  text-shadow: 0px 4px 5px #000; 
+  letter-spacing: 1px;
+
+}
+
+.fundo-titulo-ajuda {
+	
+	color: #fff;
+	background-color: rgba(66, 66, 66, 0.57);
+	
+	padding: 35px;
+	width: 60%;
+
+	border-radius: 30px;
+
+	position: absolute;
+	
+	margin-top: 100px;
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+
+	transition: 0.3s
+	
+}
 
 .tipo-ajuda {
 
@@ -31,6 +60,8 @@
   flex-flow: row wrap;
 
   justify-content: space-around;
+	
+	
 }
 
 .titulo-botao-ajuda {
@@ -45,9 +76,10 @@
   background: #4ABDAC;
   box-shadow: 0 8px rgb(42, 119, 108);
   border-radius: 5px;
-  height: 200px;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  height: 220px;
+  margin-top: 250px;
+  margin-bottom: 130px;
+
 }
 
 .money-img{
@@ -84,5 +116,7 @@
         -ms-transform: scale(1.05);
             transform: scale(1.05);
   }
+
+	
 
 }
