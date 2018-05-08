@@ -52,25 +52,25 @@
 
 .money-img{
 
-  content:url(../img/money.svg);
+  
   margin-top: 30px;
   max-width: 153px;
 }
 
 .food-img {
-  content:url(../img/food.svg);
+
   margin-top: 22px;
   max-width: 153px;
 }
 
 .medicine-img {
-  content:url(../img/medicine.svg);
+
   margin-top: 20px;
   max-width: 153px;
 }
 
 .clothes-img {
-  content:url(../img/hoodie.svg);
+
   margin-top: 25px;
   max-width: 153px;
 }
