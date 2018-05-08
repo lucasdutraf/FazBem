@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/ajuda.css">
   <link rel="stylesheet" href="../css/banner.css">
   <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/contato.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
 
 
@@ -22,7 +23,7 @@
       <nav>
         <ul>
           <li><a href="#ajuda">Ajude</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#contato">Contato</a></li>
           <li><a href="#">Sobre</a></li>
         </ul>
       </nav>  
@@ -35,6 +36,7 @@
 </header>
 
 <body>
+
   <div class="fundo-liso">
 
     <div class="tipo-ajuda" id="ajuda">
@@ -69,11 +71,24 @@
 
     </div>
 
-    <div class="rodape">
-      <h2>Pedreiro`s boys&trade;</h2>
-    </div>
-
   </div>
+  
+  <div id="contato" class="contato-form">
+    <h1 class="contato-title">Contato</h1>
+    <form>
+      <input name="nome" type="text" class="form-control" placeholder=" Nome" required> <br>
+      <input name="email" type="text" class="form-control" placeholder=" Email" required> <br>
+      <textarea name="mensagem" class="form-control" placeholder="Mensagem" rows="4" required></textarea><br>
+      
+      <input type="submit" class="form-control submit" value="ENVIAR">
+    </form>
+  </div>
+
+
+  <div class="rodape">
+    <h2>Pedreiro`s boys&trade;</h2>
+  </div>
+
 
 </body>
 
