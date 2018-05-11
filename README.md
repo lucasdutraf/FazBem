@@ -1,8 +1,22 @@
 # Faz bem
 
-Siga os passos em: https://firebase.google.com/docs/hosting/deploying?hl=pt-br
+## Instalando o NodeJS para poder usar o npm:
+```
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
 
-Para dar o deploy: 
+## Instalando A Firebase CLI:
+```
+$ npm install -g firebase-tools
+```
+
+## Inicializar o site:
+```
+$ firebase init
+```
+
+## Para dar o deploy: 
 ```
 $ firebase deploy
 ```
