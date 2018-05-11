@@ -1,5 +1,7 @@
 # Faz bem
 
+https://projeto-hc.firebaseapp.com/
+
 ## Instalando o NodeJS para poder usar o npm:
 ```
 $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -20,3 +22,4 @@ $ firebase init
 ```
 $ firebase deploy
 ```
+
