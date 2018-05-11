@@ -1,3 +1,8 @@
-# Projeto_HC
+# Faz bem
 
-## Commit inicial, só para dar pull
+Siga os passos em: https://firebase.google.com/docs/hosting/deploying?hl=pt-br
+
+Para dar o deploy: 
+```
+$ firebase deploy
+```
