@@ -107,7 +107,7 @@
   max-width: 153px;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
 
   .ajuda-botao a:hover {
     background: #F7B733;
@@ -116,7 +116,4 @@
         -ms-transform: scale(1.05);
             transform: scale(1.05);
   }
-
-	
-
 }

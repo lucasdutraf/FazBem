@@ -51,7 +51,7 @@ nav li:nth-child(2n+1) a:after {
   height: 5px;
 }
 
-@media(min-width: 800px) {
+@media screen and (min-width: 800px) {
 
   nav li {
     width: auto;

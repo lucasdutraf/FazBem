@@ -7,6 +7,8 @@
 }
 
 .contato-form {
+  display: flex;
+  flex-direction: column;
   border-top: #fff dashed 4px;
   padding: 60px;
   text-align: center;
@@ -22,7 +24,7 @@
 }
 
 .form-control {
-  width: 600px;
+  width: 90%;
   background: transparent;
   border: none;
   outline: none;
@@ -48,3 +50,5 @@ form .submit:hover {
           transition: all ease .5s;
   cursor: pointer;
 }
+
+
