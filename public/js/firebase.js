@@ -1,9 +1,11 @@
-var config = {
-    apiKey: "AIzaSyC9kIMgfkzMjzA7y0TZc2lvBzPWspzlUVE",
-    authDomain: "projeto-hc.firebaseapp.com",
-    databaseURL: "https://projeto-hc.firebaseio.com",
-    projectId: "projeto-hc",
-    storageBucket: "projeto-hc.appspot.com",
-    messagingSenderId: "514917247087"
-};
-firebase.initializeApp(config);
+  
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyATU-j8JH1Blwx0wUG2ZKQ0Nln04xgjJBQ",
+    authDomain: "faz-bem.firebaseapp.com",
+    databaseURL: "https://faz-bem.firebaseio.com",
+    projectId: "faz-bem",
+    storageBucket: "faz-bem.appspot.com",
+    messagingSenderId: "253971616099"
+  };
+  firebase.initializeApp(config);

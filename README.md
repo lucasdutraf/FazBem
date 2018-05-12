@@ -1,6 +1,6 @@
 # Faz bem
 
-https://projeto-hc.firebaseapp.com/
+https://faz-bem.firebaseapp.com/
 
 ## Instalando o NodeJS para poder usar o npm:
 ```
