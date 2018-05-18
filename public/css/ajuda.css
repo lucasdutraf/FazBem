@@ -81,7 +81,17 @@
   margin-bottom: 80px;
 
 }
+@media screen and (max-width: 800px) {
 
+  .tipo-ajuda {
+
+  } 
+  
+  .ajuda-botao a  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 .money-img{
 
   
@@ -117,3 +127,4 @@
             transform: scale(1.05);
   }
 }
+
