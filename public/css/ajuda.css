@@ -56,6 +56,12 @@
   font-size: 35px;
 }
 
+.ajuda-botao {
+
+  margin-top: 300px;
+  margin-bottom: 80px;
+}
+
 .ajuda-botao a {
  
   padding: 20px;
@@ -63,21 +69,20 @@
   box-shadow: 0 8px rgb(42, 119, 108);
   border-radius: 5px;
   height: 220px;
-  margin-top: 300px;
-  margin-bottom: 80px;
 
 }
 
 @media screen and (max-width: 800px) {
 
   .tipo-ajuda {
-    margin-top: 250px;
+    margin-top: 18em;
   }
 
-  .ajuda-botao a  {
-    margin-top: 50px;
-    margin-bottom: 20px;
+  .ajuda-botao {
+    margin-top: 3%;
+    margin-bottom: 7%;
   }
+
 }
 
 .money-img{
