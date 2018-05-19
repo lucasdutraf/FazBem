@@ -1,14 +1,12 @@
 
 .fundo-liso {	
 	
-
 	background: rgba(66, 66, 66, 0.57);
 	border-top: solid 5px white;
   border-bottom: solid 5px white;
 
   text-align: center;
 
-	
 	background-image: linear-gradient(135deg, transparent, 
 		                                  transparent 14px, 
                                       rgb(205, 202, 209) 16px,
@@ -17,11 +15,7 @@
 		                                  transparent);
 	background-size: 40px 40px;
   background-attachment: fixed;
-
-
-  
 }
-
 
 .titulo-ajuda {
 
@@ -30,7 +24,6 @@
 
   text-shadow: 0px 4px 5px #000; 
   letter-spacing: 1px;
-
 }
 
 .fundo-titulo-ajuda {
@@ -48,27 +41,20 @@
 	margin-top: 120px;
 	margin-left: 50%;
 	transform: translate(-50%, -50%);
-
-	transition: 0.3s
-	
 }
 
 .tipo-ajuda {
 
-
   display: flex;
   flex-flow: row wrap;
-
   justify-content: space-around;
 	margin-bottom: 100px;
-	
 }
 
 .titulo-botao-ajuda {
 
   font-size: 35px;
 }
-
 
 .ajuda-botao a {
  
@@ -81,17 +67,19 @@
   margin-bottom: 80px;
 
 }
+
 @media screen and (max-width: 800px) {
 
   .tipo-ajuda {
+    margin-top: 250px;
+  }
 
-  } 
-  
   .ajuda-botao a  {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
   }
 }
+
 .money-img{
 
   
