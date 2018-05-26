@@ -28,3 +28,4 @@ btnClothe.addEventListener("click", function(event) {
     event.preventDefault();
     alert("Clothe");
 })
+
