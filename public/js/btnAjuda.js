@@ -8,18 +8,22 @@ let btnClothe = document.querySelector("#btnClothe")
 
 btnFood.addEventListener("click", function(event) {
     redirectingToInstitution()
+    localStorage.setItem("clickedButton", "comida")
 })
 
 btnMoney.addEventListener("click", function(event) {
     redirectingToInstitution()
+    localStorage.setItem("clickedButton", "dinheiro")
 })
 
 btnMedicine.addEventListener("click", function(event) {
     redirectingToInstitution()
+    localStorage.setItem("clickedButton", "remédio")
 })
 
 btnClothe.addEventListener("click", function(event) {
     redirectingToInstitution()
+    localStorage.setItem("clickedButton", "roupa")
 })
 
 function redirectingToInstitution() {
