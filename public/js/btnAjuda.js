@@ -5,6 +5,7 @@ let btnMoney = document.querySelector("#btnMoney");
 let btnMedicine = document.querySelector("#btnMedicine");
 let btnClothe = document.querySelector("#btnClothe");
 
+/*
 btnFood.addEventListener("click", function(event) {
 
     event.preventDefault();
@@ -29,3 +30,4 @@ btnClothe.addEventListener("click", function(event) {
     alert("Clothe");
 })
 
+*/
