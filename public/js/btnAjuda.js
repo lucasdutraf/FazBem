@@ -7,22 +7,22 @@ let btnClothe = document.querySelector("#btnClothe")
 
 btnFood.addEventListener("click", function(event) {
     redirectingToInstitution()
-    localStorage.setItem("clickedButton", "comida")
+    localStorage.setItem("@help-option", "comida")
 })
 
 btnMoney.addEventListener("click", function(event) {
     redirectingToInstitution()
-    localStorage.setItem("clickedButton", "dinheiro")
+    localStorage.setItem("@help-option", "dinheiro")
 })
 
 btnMedicine.addEventListener("click", function(event) {
     redirectingToInstitution()
-    localStorage.setItem("clickedButton", "remédio")
+    localStorage.setItem("@help-option", "remédio")
 })
 
 btnClothe.addEventListener("click", function(event) {
     redirectingToInstitution()
-    localStorage.setItem("clickedButton", "roupa")
+    localStorage.setItem("@help-option", "roupa")
 })
 
 

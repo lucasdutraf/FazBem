@@ -13,7 +13,7 @@ firebase.initializeApp(config);
 var database = firebase.database()
 var ref = database.ref('institutions')
 
-/*
+/* enviar dado para o storage do firebase
 var data = {
   name: 'Abrigo Flora e Fauna',
   address: 'Núcleo Rural Ponte Alta de Baixo - Gama, Brasília - DF,',
@@ -26,13 +26,11 @@ ref.on('value', gotData, errData)
 
 function gotData(data) {
   
-  //console.log(data.val())
   var institutions = data.val();
   var keys = Object.keys(institutions)
-  console.log(institutions)
 
   var name = []
-  var address = []
+  var address = [] 
   var contact = []
 
   for(let i = 0; i < keys.length; i++) {
@@ -42,6 +40,9 @@ function gotData(data) {
     contact[i] = institutions[k].contact
   }
 
+  localStorage.setItem("@institution-names", name);
+  localStorage.setItem("@institution-addresses", address);
+  localStorage.setItem("@institution-contacts", contact);
   console.log(name, address, contact)
 }
 
