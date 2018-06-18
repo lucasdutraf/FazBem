@@ -13,9 +13,12 @@ firebase.initializeApp(config);
 var database = firebase.database()
 var ref = database.ref('institutions')
 
-var data = {
-  name: 'teste',
-  adress: 'rua 3'
+ref.on('value', gotData, errData)
+
+function gotData(data) {
+  console.log(data.val())
 }
 
-ref.push(data)
+function errData(err) {
+  console.log("Error" + err)
+}
