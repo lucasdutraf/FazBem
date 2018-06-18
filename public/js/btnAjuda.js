@@ -1,5 +1,4 @@
 
-
 let btnFood = document.querySelector("#btnFood")
 let btnMoney = document.querySelector("#btnMoney")
 let btnMedicine = document.querySelector("#btnMedicine")
@@ -25,6 +24,7 @@ btnClothe.addEventListener("click", function(event) {
     redirectingToInstitution()
     localStorage.setItem("clickedButton", "roupa")
 })
+
 
 function redirectingToInstitution() {
     window.location.href = "html/institution.html";
