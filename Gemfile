@@ -27,6 +27,20 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+#Continuous integration config start
+
+#Code analyzer and style guide
+gem 'rubocop', require: false
+
+#To scan application for vulnerabilities
+gem 'brakeman', require: false
+
+#For RSpec test cases
+gem 'rspec-rails'
+
+
+#Continuos integration config end
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

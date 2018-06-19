@@ -1,0 +1,18 @@
+before_script:
+    - ruby -v
+    - which ruby
+    - gem install bundler --no-ri --no-rdoc
+    - bundle install --quiet
+    - bundle exec rake db:migrate --quiet
+    - bundle exec rake db:test:prepare --quiet
+rspec:
+  script:
+    - rspec
+
+brakeman:
+  script:
+    - bundle exec brakeman -z -q
+
+rubocop:
+  script:
+    - bundle exec rubocop
