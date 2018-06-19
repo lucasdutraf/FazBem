@@ -10,8 +10,9 @@ var config = {
 };
 firebase.initializeApp(config);
 
-var database = firebase.database()
-var ref = database.ref('institutions/clothe')
+
+/*
+var ref = database.ref('institutions')
 
 ref.on('value', gotData, errData)
 
@@ -43,11 +44,12 @@ function errData(err) {
 
 
 // enviar dado para o storage do firebase
-/*
+
 var data = {
   name: 'Instituto Espírita Assistencial Emmanuel',
   address: 'Quadra 12, Lote 61, St. Oeste, Gama-DF',
   contact: 'contato@ineae.org.br'
 }
 ref.push(data)
+
 */
