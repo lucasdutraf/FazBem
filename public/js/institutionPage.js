@@ -4,19 +4,18 @@
 let clickedButton = localStorage.getItem("@help-option")
 document.getElementById("titulo-tipo-de-ajuda").innerHTML = "Instituições que precisam de " + clickedButton
 
-var database = firebase.database()
-var ref = database.ref('institutions/' + getHelpOption())
+let database = firebase.database()
+let ref = database.ref('institutions/' + getHelpOption())
 
 ref.on('value', gotData, errData)
 
 function gotData(data) {
   
-  var institutions = data.val();
-  var keys = Object.keys(institutions)
-
-  var name = []
-  var address = [] 
-  var contact = []
+  let institutions = data.val();
+  let keys = Object.keys(institutions)
+  let name = []
+  let address = [] 
+  let contact = []
 
   for(let i = 0; i < keys.length; i++) {
     let k = keys[i]
@@ -31,13 +30,12 @@ function gotData(data) {
   console.log(name, address, contact)
 }
 
-function errData(err) {
-    console.log("Error" + err)
+function errData(err) { 
+    alert("Não foi possível carregar as instituições")
+    console.log(err) 
 }
 
 function getHelpOption() {
-
-    let helpOption = ''
 
     if(localStorage.getItem("@help-option") === 'comida')
         return 'food'
