@@ -10,17 +10,9 @@ var config = {
 };
 firebase.initializeApp(config);
 
-var database = firebase.database()
-var ref = database.ref('institutions')
 
-/* enviar dado para o storage do firebase
-var data = {
-  name: 'Abrigo Flora e Fauna',
-  address: 'Núcleo Rural Ponte Alta de Baixo - Gama, Brasília - DF,',
-  contact: '(61) 99826-5882'
-}
-ref.push(data)
-*/
+/*
+var ref = database.ref('institutions')
 
 ref.on('value', gotData, errData)
 
@@ -49,3 +41,15 @@ function gotData(data) {
 function errData(err) {
   console.log("Error" + err)
 }
+
+
+// enviar dado para o storage do firebase
+
+var data = {
+  name: 'Instituto Espírita Assistencial Emmanuel',
+  address: 'Quadra 12, Lote 61, St. Oeste, Gama-DF',
+  contact: 'contato@ineae.org.br'
+}
+ref.push(data)
+
+*/
