@@ -17,7 +17,7 @@ function gotData(data) {
     localStorage.setItem("@institution-addresses", address);
     localStorage.setItem("@institution-contacts", contact);
 
-    loadDataIntoHTML()
+    loadDataIntoHTML(name, address, contact)
 }
 
 function errData(err) { 
@@ -25,20 +25,25 @@ function errData(err) {
     console.log(err) 
 }
 
-function loadDataIntoHTML() {
+function loadDataIntoHTML(name, address, contact) {
 
     let institutionsList = document.querySelector(".lista-instituicao")
 
-    createInstitutionHTML(institutionsList)
+    for(let i = 0; i < name.length; i++) {
+        createAndAppendInstitutionHTML(institutionsList, i)
+        document.getElementById('nome-instituicao-' + i).innerHTML = name[i]
+    }
+    
 }
 
-function createInstitutionHTML(institutionsList) {
+function createAndAppendInstitutionHTML(institutionsList, index) {
 
     let  = document.querySelector(".lista-instituicao")
 
     let institution = document.createElement('h2')
     institution.innerHTML = "oi"
-    institution.setAttribute('id', 'sobre-instituicao')
+    institution.setAttribute('id', 'nome-instituicao-' + index)
+    institution.setAttribute('class', 'nome-instituicao')
 
     institutionsList.appendChild(institution)
 }

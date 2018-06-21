@@ -10,15 +10,18 @@ var config = {
 };
 firebase.initializeApp(config);
 
-/*
+
 
 // enviar dado para o storage do firebase
 
+/*
+database = firebase.database()
+var ref = database.ref('institutions/food')
+
 var data = {
-  name: 'Instituto Espírita Assistencial Emmanuel',
-  address: 'Quadra 12, Lote 61, St. Oeste, Gama-DF',
-  contact: 'contato@ineae.org.br'
+  name: 'teste1',
+  address: 'teste1',
+  contact: 'teste1'
 }
 ref.push(data)
-
 */
