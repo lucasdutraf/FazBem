@@ -9,10 +9,6 @@ rspec:
   script:
     - rspec
 
-brakeman:
-  script:
-    - bundle exec brakeman -z -q
-
 rubocop:
   script:
     - bundle exec rubocop

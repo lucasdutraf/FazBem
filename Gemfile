@@ -32,9 +32,6 @@ gem 'jbuilder', '~> 2.5'
 #Code analyzer and style guide
 gem 'rubocop', require: false
 
-#To scan application for vulnerabilities
-gem 'brakeman', require: false
-
 #For RSpec test cases
 gem 'rspec-rails'
 
