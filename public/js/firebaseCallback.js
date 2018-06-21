@@ -17,11 +17,31 @@ function gotData(data) {
     localStorage.setItem("@institution-addresses", address);
     localStorage.setItem("@institution-contacts", contact);
 
-    document.getElementById("sobre-instituicao").innerHTML = name
+    loadDataIntoHTML()
 }
 
 function errData(err) { 
     alert("Não foi possível carregar as instituições")
     console.log(err) 
 }
+
+function loadDataIntoHTML() {
+
+    let institutionsList = document.querySelector(".lista-instituicao")
+
+    createInstitutionHTML(institutionsList)
+}
+
+function createInstitutionHTML(institutionsList) {
+
+    let  = document.querySelector(".lista-instituicao")
+
+    let institution = document.createElement('h2')
+    institution.innerHTML = "oi"
+    institution.setAttribute('id', 'sobre-instituicao')
+
+    institutionsList.appendChild(institution)
+}
+
+
 

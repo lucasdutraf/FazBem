@@ -10,38 +10,7 @@ var config = {
 };
 firebase.initializeApp(config);
 
-
 /*
-var ref = database.ref('institutions')
-
-ref.on('value', gotData, errData)
-
-function gotData(data) {
-  
-  var institutions = data.val();
-  var keys = Object.keys(institutions)
-
-  var name = []
-  var address = [] 
-  var contact = []
-
-  for(let i = 0; i < keys.length; i++) {
-    let k = keys[i]
-    name[i] = institutions[k].name
-    address[i] = institutions[k].address
-    contact[i] = institutions[k].contact
-  }
-
-  localStorage.setItem("@institution-names", name);
-  localStorage.setItem("@institution-addresses", address);
-  localStorage.setItem("@institution-contacts", contact);
-  console.log(name, address, contact)
-}
-
-function errData(err) {
-  console.log("Error" + err)
-}
-
 
 // enviar dado para o storage do firebase
 
