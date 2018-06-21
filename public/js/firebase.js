@@ -16,12 +16,12 @@ firebase.initializeApp(config);
 
 /*
 database = firebase.database()
-var ref = database.ref('institutions/food')
+var ref = database.ref('institutions/money')
 
 var data = {
-  name: 'teste1',
-  address: 'teste1',
-  contact: 'teste1'
+  name: 'teste',
+  address: 'teste',
+  contact: 'teste'
 }
 ref.push(data)
 */

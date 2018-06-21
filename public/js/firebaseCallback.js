@@ -41,9 +41,8 @@ function createAndAppendInstitutionHTML(institutionsList, index) {
     let  = document.querySelector(".lista-instituicao")
 
     let institution = document.createElement('h2')
-    institution.innerHTML = "oi"
     institution.setAttribute('id', 'nome-instituicao-' + index)
-    institution.setAttribute('class', 'nome-instituicao')
+    institution.setAttribute('class', 'nome-instituicao')   
 
     institutionsList.appendChild(institution)
 }
