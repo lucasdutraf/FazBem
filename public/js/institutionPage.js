@@ -28,7 +28,7 @@ function gotData(data) {
     localStorage.setItem("@institution-addresses", address);
     localStorage.setItem("@institution-contacts", contact);
 
-    document.getElementById("institution-name").innerHTML = name
+    document.getElementById("sobre-institu").innerHTML = name
 }
 
 function errData(err) { 
