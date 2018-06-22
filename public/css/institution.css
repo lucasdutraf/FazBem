@@ -33,6 +33,9 @@ header {
 .lista-instituicao {
 
     margin-top: 200px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }   
 
 .nome-instituicao {
@@ -42,7 +45,6 @@ header {
     color: white;
     width: 50%;
     margin: 25px;
-    margin-left: 24%;
     font-size: 50px;
     padding: 25px;
     border-radius: 50px;    
