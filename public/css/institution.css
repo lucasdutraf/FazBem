@@ -32,10 +32,6 @@ header {
 
 .lista-instituicao {
 
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-
 }   
 
 .nome-instituicao {
