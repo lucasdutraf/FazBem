@@ -27,5 +27,5 @@ btnClothe.addEventListener("click", function(event) {
 
 
 function redirectingToInstitution() {
-    window.location.href = "html/institution.html";
+    window.location.href = "html/select-institution.html";
 }
