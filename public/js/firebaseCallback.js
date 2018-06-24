@@ -43,9 +43,12 @@ function createAndAppendInstitutionHTML(institutionsList, index) {
     let institution = document.createElement('a')
     institution.setAttribute('id', 'nome-instituicao-' + index)
     institution.setAttribute('class', 'nome-instituicao')   
-
+    institution.setAttribute('onclick', 'clickListener(' + index + ')')
     institutionsList.appendChild(institution)
 }
 
 
 
+function clickListener(index) {
+    console.log(index)
+}

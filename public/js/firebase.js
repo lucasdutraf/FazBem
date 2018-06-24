@@ -9,6 +9,7 @@ var config = {
   storageBucket: "faz-bem.appspot.com",
   messagingSenderId: "253971616099"
 };
+
 firebase.initializeApp(config);
 
 
