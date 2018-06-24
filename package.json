@@ -1,0 +1,27 @@
+{
+  "name": "FazBem",
+  "version": "1.0.0",
+  "description": "https://faz-bem.firebaseapp.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "webpack -p",
+    "build": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasdutraf/FazBem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasdutraf/FazBem/issues"
+  },
+  "homepage": "https://github.com/lucasdutraf/FazBem#readme",
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
