@@ -13,17 +13,17 @@ $ sudo apt-get install -y nodejs
 $ npm install -g firebase-tools
 ```
 
-# Instalando as dependências
+## Instalando as dependências:
  ```
 $ npm install 
 ```
 
-# Gerando o bundle.js pelo webpack com o código minificado
+## Gerando o bundle.js pelo webpack com o código minificado:
  ```
 $ npm run build:prod 
 ```
 
-# Iniciando o servidor de teste como webpack-dev-server
+## Iniciando o servidor de teste como webpack-dev-server:
  ```
 $ npm run build 
 ```
