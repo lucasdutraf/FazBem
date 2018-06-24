@@ -55,3 +55,14 @@ header {
 }
 
 
+@media screen and (max-width: 800px) {
+
+    #titulo-tipo-de-ajuda {
+      font-size: 3rem;
+    }
+
+    .nome-instituicao {
+        font-size: 30px;
+    }
+  }
+  
