@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lucasdutraf/FazBem/issues"
   },
-  "homepage": "https://github.com/lucasdutraf/FazBem#readme"
+  "homepage": "https://github.com/lucasdutraf/FazBem#readme",
+  "devDependencies": {
+    "webpack": "^4.12.0"
+  }
 }
