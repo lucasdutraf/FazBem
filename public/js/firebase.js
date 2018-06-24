@@ -1,5 +1,6 @@
 
 // Initialize Firebase
+
 var config = {
   apiKey: "AIzaSyATU-j8JH1Blwx0wUG2ZKQ0Nln04xgjJBQ",
   authDomain: "faz-bem.firebaseapp.com",
@@ -9,6 +10,7 @@ var config = {
   messagingSenderId: "253971616099"
 };
 firebase.initializeApp(config);
+
 
 
 
