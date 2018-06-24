@@ -1,0 +1,19 @@
+{
+  "name": "fazbem",
+  "version": "1.0.0",
+  "description": "https://faz-bem.firebaseapp.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasdutraf/FazBem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasdutraf/FazBem/issues"
+  },
+  "homepage": "https://github.com/lucasdutraf/FazBem#readme"
+}
