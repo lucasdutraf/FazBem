@@ -60,6 +60,7 @@ function clickListener(index) {
         tokens = names.split(',')
 
         console.log(tokens[index])
+        window.location.href = "./institution.html";
     }
 
     //seta o index no local storage redireciona
