@@ -7,6 +7,13 @@ let database = firebase.database()
 var ref = database.ref('institutions/' + getHelpOption())
 ref.on('value', gotData, errData)
 
+console.log('carregando...')
+
+sleep(2000).then(() => {
+    //tirar a animação
+    document.getElementById("loader-firebase").classList.remove("loader")
+    document.getElementById("bg-loader-firebase").classList.remove("loader-bg")
+})
 
 function getHelpOption() {
 
@@ -21,3 +28,7 @@ function getHelpOption() {
 
 }
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  

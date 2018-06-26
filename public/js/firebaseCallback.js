@@ -1,7 +1,7 @@
 
 
 function gotData(data) {
-    
+
     let institutions = data.val();
     let keys = Object.keys(institutions)
     
@@ -58,7 +58,7 @@ function clickListener(index) {
     if(index >= 0) {
         let names = localStorage.getItem('@institution-names')
         tokens = names.split(',')
-        
+
         console.log(tokens[index])
     }
 
