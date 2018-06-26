@@ -55,14 +55,7 @@ function createAndAppendInstitutionHTML(institutionsList, index) {
 
 function clickListener(index) {
 
-    if(index >= 0) {
-        let names = localStorage.getItem('@institution-names')
-        tokens = names.split(',')
-
-        console.log(tokens[index])
-        window.location.href = "./institution.html";
-    }
-
-    //seta o index no local storage redireciona
+    localStorage.setItem('@indexOfInstitutionsList', index)
+    window.location.href = "./institution.html";
 }
 
