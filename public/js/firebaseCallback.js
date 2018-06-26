@@ -1,12 +1,14 @@
 
-function gotData(data) {
 
+function gotData(data) {
+    
     let institutions = data.val();
     let keys = Object.keys(institutions)
+    
+    
     var name = []
     var address = [] 
     var contact = []
-
     for(let i = 0; i < keys.length; i++) {
         let k = keys[i]
         name[i] = institutions[k].name
@@ -16,6 +18,7 @@ function gotData(data) {
     localStorage.setItem("@institution-names", name);
     localStorage.setItem("@institution-addresses", address);
     localStorage.setItem("@institution-contacts", contact);
+
 
     loadDataIntoHTML(name, address, contact)
 }
@@ -27,6 +30,7 @@ function errData(err) {
 
 function loadDataIntoHTML(name, address, contact) {
 
+    console.log(name, address, contact)
     let institutionsList = document.querySelector(".lista-instituicao")
 
     for(let i = 0; i < name.length; i++) {
@@ -50,5 +54,14 @@ function createAndAppendInstitutionHTML(institutionsList, index) {
 
 
 function clickListener(index) {
-    console.log(index)
+
+    if(index >= 0) {
+        let names = localStorage.getItem('@institution-names')
+        tokens = names.split(',')
+        
+        console.log(tokens[index])
+    }
+
+    //seta o index no local storage redireciona
 }
+

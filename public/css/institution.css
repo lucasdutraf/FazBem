@@ -50,11 +50,6 @@ header {
     border-radius: 50px;    
 }
 
-.nome-instituicao:hover {
-    background-color: #F7B733;
-}
-
-
 @media screen and (max-width: 800px) {
 
     #titulo-tipo-de-ajuda {
@@ -64,5 +59,15 @@ header {
     .nome-instituicao {
         font-size: 30px;
     }
-  }
+}
   
+@media screen and (min-width: 500px) {
+
+    .nome-instituicao:hover {
+        background: #F7B733;
+        box-shadow: 0 8px rgb(180, 133, 38);
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
+}
