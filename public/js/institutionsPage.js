@@ -9,9 +9,10 @@ ref.on('value', gotData, errData)
 
 console.log('carregando...')
 
-sleep(3000).then(() => {
+sleep(2000).then(() => {
     //tirar a animação
     document.getElementById("loader-firebase").classList.remove("loader")
+    document.getElementById("bg-loader-firebase").classList.remove("loader-bg")
 })
 
 function getHelpOption() {
