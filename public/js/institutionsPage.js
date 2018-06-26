@@ -1,7 +1,7 @@
 
 
 let clickedButton = localStorage.getItem("@help-option")
-document.getElementById("titulo-tipo-de-ajuda").innerHTML = "Instituições que precisam de " + clickedButton
+document.getElementById("titulo-tipo-de-ajuda").innerHTML = "Instituições que precisam de <b class='tipo-ajuda'>" + clickedButton + "</b>"
 
 let database = firebase.database()
 var ref = database.ref('institutions/' + getHelpOption())
