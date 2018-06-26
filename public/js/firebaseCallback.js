@@ -56,6 +56,11 @@ function createAndAppendInstitutionHTML(institutionsList, index) {
 function clickListener(index) {
 
     localStorage.setItem('@indexOfInstitutionsList', index)
-    window.location.href = "./institution.html";
+
+    if(localStorage.getItem('@help-option') !== 'dinheiro')
+        window.location.href = "./institution-general.html";
+    else 
+        window.location.href = "./institution-money.html";
+    
 }
 

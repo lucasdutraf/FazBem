@@ -1,5 +1,5 @@
 
-header {
+.container-lista-instituicao {
     background: url(../img/gray-cover.png) no-repeat fixed center / cover;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -101,7 +101,7 @@ header {
     text-shadow: 0px 5px 5px #000; 
 }
 
-.container {
+.container-instituição {
     
     background: url(../img/gray-cover.png) no-repeat fixed center / cover;
     text-align: center;
