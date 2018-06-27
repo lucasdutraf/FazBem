@@ -1,12 +1,10 @@
 
 let index = localStorage.getItem('@indexOfInstitutionsList')
-console.log(index)
-
 let names = localStorage.getItem('@institution-names')
-console.log(names)
+let addresses = localStorage.getItem('@institution-addresses')
 
-tokens = names.split(',')
+tokensName = names.split(',')
+tokensAddress = addresses.split(',')
 
-console.log(tokens[index])
-
-document.getElementById("title-name").innerHTML = tokens[index]
+document.getElementById("title-name").innerHTML = tokensName[index]
+document.getElementById("address").innerHTML = tokensAddress[index]
