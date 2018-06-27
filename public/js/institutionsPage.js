@@ -13,7 +13,6 @@ sleep(2000).then(() => {
     //tirar a animação
     document.getElementById("loader-firebase").classList.remove("loader")
     document.getElementById("bg-loader-firebase").classList.remove("loader-bg")
-    document.getElementById("loading-title").innerHTML=''
 })
 
 function getHelpOption() {
