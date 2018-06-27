@@ -1,15 +1,15 @@
 
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
   color: rgb(31, 31, 31);
   font-size: 12px;
-  opacity: 1; /* Firefox */
+  opacity: 1; 
 }
 
 .contato-form {
   display: flex;
   flex-direction: column;
-  border-top: #fff dashed 4px;
+  border-top: #4ABDAC dashed 4px;
   padding: 60px;
   text-align: center;
   background: url(../img/contato.jpg) no-repeat fixed center / cover;

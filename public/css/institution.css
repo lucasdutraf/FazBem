@@ -10,7 +10,7 @@
 .fundo-liso {	
 	
     background: rgba(66, 66, 66, 0.57);
-    border-top: solid 5px white;
+    border-top: solid 5px #4ABDAC;
     text-align: center;
     background-image: linear-gradient(135deg, transparent, 
                                             transparent 14px, 
@@ -39,8 +39,8 @@
 
 .nome-instituicao {
 
-    border: 2px solid white;
-    background-color: rgba(255, 255, 255, .3);  
+    border: 5px dashed white;
+    background-color: rgba(255, 255, 255, 0.2);  
     color: white;
     width: 50%;
     margin: 25px;
