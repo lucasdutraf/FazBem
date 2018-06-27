@@ -2,6 +2,8 @@
 #map {
     height: 400px;
     width: 100%;
+    border-top: 5px dashed white;
+    border-bottom: 5px dashed white;
 }
 
 #title-name {
@@ -19,4 +21,24 @@
     color: #fff;
     padding: 80px 0 350px;
     border-bottom: 5px solid #4ABDAC;
+}
+
+.send-donation {
+    
+    color: white;
+    text-shadow: 0px 3px 3px #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}   
+
+#address {
+    
+    color: #4ABDAC;
+    font-size: 3em;
+    text-shadow: 1px 5px 5px #000;
+    margin-top: 50px;
+    
 }

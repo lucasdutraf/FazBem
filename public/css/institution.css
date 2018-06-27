@@ -47,6 +47,7 @@
     font-size: 50px;
     padding: 25px;
     border-radius: 50px;    
+    text-shadow: 2px 4px 4px #000;
 }
 
 .tipo-ajuda {
