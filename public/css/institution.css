@@ -12,6 +12,7 @@
     background: rgba(66, 66, 66, 0.57);
     border-top: solid 5px #4ABDAC;
     text-align: center;
+    border-bottom: 20px solid rgba(150, 150, 150, 0.57);
     background-image: linear-gradient(135deg, transparent, 
                                             transparent 14px, 
                                         rgb(205, 202, 209) 16px,
@@ -31,7 +32,7 @@
 
 .lista-instituicao {
 
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -76,6 +77,14 @@
     }
 }
 
+.care-img {
+
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+}
 
 .loader-bg {
 

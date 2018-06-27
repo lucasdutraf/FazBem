@@ -1,6 +1,6 @@
 
 #map {
-    height: 400px;
+    height: 600px;
     width: 100%;
     border-top: 5px dashed white;
     border-bottom: 5px dashed white;
@@ -40,5 +40,5 @@
     font-size: 3em;
     text-shadow: 1px 5px 5px #000;
     margin-top: 50px;
-    
+    margin-bottom: 50px;  
 }
