@@ -1,17 +1,15 @@
 function initMap() {
-    var myLatLng = {lat: -25.363, lng: 131.044};
+    
+    // pegar a lat e long puxadas do firebase guardadas no localStorage
+    var myLatLng = {lat: -15.899639, lng: -47.771333};
 
-    // Create a map object and specify the DOM element
-    // for display.
     var map = new google.maps.Map(document.getElementById('map'), {
         center: myLatLng,
-        zoom: 4
+        zoom: 18
     });
 
-    // Create a marker and set its position.
     var marker = new google.maps.Marker({
         map: map,
         position: myLatLng,
-        title: 'Hello World!'
     });
 }
