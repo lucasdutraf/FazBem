@@ -12,24 +12,23 @@ firebase.initializeApp(config);
 
 
 
-/*
+
 database = firebase.database()
 
 var ref = database.ref('institutions/dinheiro')
 console.log(data)
 
 var data = {
-  name: 'Promovida',
-  address: 'Rua do Calc 270 Bairro Centro São Sebastião Brasília DF',
-  cep: '71691-047',
-  contact: '(61)3335-7031',
-  about: 'O Projeto PROMOVIDA nasceu em 17 de Agosto de 1998 pela iniciativa do Colégio La Salle da Comunidade de São Sebastião DF e das irmãs de São Vicente de Paulo Servas dos Pobres com o objetivo de tirar as crianças das ruas. Em 1999 a Paróquia Nossa Senhora do Perpétuo Socorro do Lago Sul juntou-se a grupo e passou a administrar a Instituição.',
+  name: 'ProAnima',
+  address: 'St. Sul Quadra 07 AE Lote AB Gama Brasília DF',
+  cep: '72410-420',
+  contact: '(61) 3327-9390', 
+  about: 'A ProAnima é uma associação sem fins lucrativos, de caráter socioambientalista, fundada em 31 de outubro de 2003. Nossa missão é promover a harmonia nas interações entre humanos e animais. Temos um estatuto e regimento interno que prevê direitos e deveres de associados, formas democráticas de gestão e um ideário que reúne nossos princípios e norteia nosso trabalho.',
   lat: '-15.905749',
   lng: '-47.761579',
-  ID: '03.126.941/0001-64',
-  agency_account: '3129-1',
-  bank_account: '6081-X' 
+  ID: '05.992.115/0001-23',
+  agency_account: '3603-x',
+  bank_account: '23.382-8' 
 }
 
 ref.push(data)
-*/
