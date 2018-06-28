@@ -9,8 +9,6 @@ tokensLng = longitudes.split(',')
 let latInstitution = parseFloat(tokensLat[index])
 let lngnstitution = parseFloat(tokensLng[index])
 
-console.log(latInstitution, lngnstitution)
-
 
 function initMap() {
     
@@ -19,7 +17,7 @@ function initMap() {
 
     var map = new google.maps.Map(document.getElementById('map'), {
         center: myLatLng,
-        zoom: 10
+        zoom: 18
     });
 
     var marker = new google.maps.Marker({

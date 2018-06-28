@@ -12,24 +12,24 @@ firebase.initializeApp(config);
 
 
 
-
+/*
 database = firebase.database()
 
-var ref = database.ref('institutions/alimento')
+var ref = database.ref('institutions/dinheiro')
 console.log(data)
 
 var data = {
-  name: 'Fundação CDL',
-  address: 'SIA Trecho 17 Via IA-4 Lote 815 Brasília DF',
-  cep: '70200-260',
-  contact: '(61)3218-1513',
-  about: 'A Fundação CDL-DF é uma entidade jurídica de direito privado sem fins lucrativos que visa garantir o efetivo direito da criança e do adolescente à convivência familiar e comunitária e à proteção integral promovendo a inclusão social e prevenindo a violação de direitos infanto-juvenis.',
-  lat: '-15.797895',
-  lng: ' -47.963356',
-  ID: 'X',
-  agency_accout: 'X',
-  bank_account: 'X' 
+  name: 'Promovida',
+  address: 'Rua do Calc 270 Bairro Centro São Sebastião Brasília DF',
+  cep: '71691-047',
+  contact: '(61)3335-7031',
+  about: 'O Projeto PROMOVIDA nasceu em 17 de Agosto de 1998 pela iniciativa do Colégio La Salle da Comunidade de São Sebastião DF e das irmãs de São Vicente de Paulo Servas dos Pobres com o objetivo de tirar as crianças das ruas. Em 1999 a Paróquia Nossa Senhora do Perpétuo Socorro do Lago Sul juntou-se a grupo e passou a administrar a Instituição.',
+  lat: '-15.905749',
+  lng: '-47.761579',
+  ID: '03.126.941/0001-64',
+  agency_account: '3129-1',
+  bank_account: '6081-X' 
 }
 
 ref.push(data)
-
+*/
