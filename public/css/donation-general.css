@@ -57,14 +57,32 @@
 	box-shadow: 0px 4px 4px rgb(70, 70, 70);
 }
 
-.floating-btn:hover {
-
-    background-color:#F7B733;
-    box-shadow: 0px 4px 4px rgb(180, 133, 38);
-}
 
 .btn-img {
     width: 50px;
     height: 50px;
     margin-top: 13px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .floating-btn {
+        width:60px;
+	    height:60px;
+    }
+    
+    .btn-img {
+        width: 35px;
+        height: 35px;
+        margin-top: 14px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+
+    .floating-btn:hover {
+
+        background-color:#F7B733;
+        box-shadow: 0px 4px 4px rgb(180, 133, 38);
+    }
 }
