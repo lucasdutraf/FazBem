@@ -42,3 +42,29 @@
     margin-top: 50px;
     margin-bottom: 50px;  
 }
+
+.floating-btn {
+
+    position:fixed;
+	width:80px;
+	height:80px;
+	bottom:40px;
+	right:40px;
+	background-color:#4ABDAC;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 0px 4px 4px rgb(70, 70, 70);
+}
+
+.floating-btn:hover {
+
+    background-color:#F7B733;
+    box-shadow: 0px 4px 4px rgb(180, 133, 38);
+}
+
+.btn-img {
+    width: 50px;
+    height: 50px;
+    margin-top: 13px;
+}
