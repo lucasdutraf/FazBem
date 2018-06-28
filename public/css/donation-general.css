@@ -85,8 +85,37 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width: 500px) {
+.money-donation {
 
+    margin: 50px;
+    
+    border-radius: 10%;
+}
+
+.key-value {
+    margin: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.key {
+    color: #4ABDAC;
+    text-shadow: 0px 4px 4px black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.value {
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 500px) {
+    
     .floating-btn {
         width:60px;
 	    height:60px;
@@ -96,6 +125,19 @@
         width: 35px;
         height: 35px;
         margin-top: 14px;
+    }
+    
+    .key-value {
+
+    }
+
+    .key {
+        font-size: 2.5em;
+    }
+    
+    .value {
+    
+        font-size: 2.5em;
     }
 }
 
