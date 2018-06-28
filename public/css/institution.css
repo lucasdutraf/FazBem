@@ -55,35 +55,24 @@
     color: #4ABDAC;
 }
 
-@media screen and (max-width: 800px) {
-
-    #titulo-tipo-de-ajuda {
-      font-size: 3rem;
-    }
-
-    .nome-instituicao {
-        font-size: 30px;
-    }
-}
-  
-@media screen and (min-width: 500px) {
-
-    .nome-instituicao:hover {
-        background: #F7B733;
-        box-shadow: 0 8px rgb(180, 133, 38);
-        -webkit-transform: scale(1.05);
-            -ms-transform: scale(1.05);
-                transform: scale(1.05);
-    }
+.saiba-mais-instit {
+    background-color: rgba(255,255,255,.3);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 50px;
+    border: 4px solid white;
 }
 
 .care-img {
-
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 150px;
+}
+
+.saiba-mais-txt {
+    font-size: 3.5em;    
+    color: white;
+    text-shadow: 0px 4px 4px black;
 }
 
 .loader-bg {
@@ -109,4 +98,31 @@
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 800px) {
+
+    #titulo-tipo-de-ajuda {
+      font-size: 3rem;
+    }
+
+    .nome-instituicao {
+        font-size: 30px;
+    }
+    .saiba-mais-txt {
+        font-size: 2em;    
+        color: white;
+        text-shadow: 0px 4px 4px black;
+    }
+}
+  
+@media screen and (min-width: 500px) {
+
+    .nome-instituicao:hover {
+        background: #F7B733;
+        box-shadow: 0 8px rgb(180, 133, 38);
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
 }

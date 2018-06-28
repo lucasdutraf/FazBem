@@ -8,3 +8,5 @@ tokensAddress = addresses.split(',')
 
 document.getElementById("title-name").innerHTML = tokensName[index]
 document.getElementById("address").innerHTML = tokensAddress[index]
+
+//pegar os tokens do sobre, da lat e lng

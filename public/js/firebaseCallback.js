@@ -5,10 +5,12 @@ function gotData(data) {
     let institutions = data.val();
     let keys = Object.keys(institutions)
     
-    
     var name = []
     var address = [] 
     var contact = []
+
+    //lat,lng, agencia, numConta, cpfOrCpnj
+
     for(let i = 0; i < keys.length; i++) {
         let k = keys[i]
         name[i] = institutions[k].name

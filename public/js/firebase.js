@@ -24,7 +24,13 @@ var ref = database.ref('institutions/money')
 var data = {
   name: 'teste',
   address: 'teste',
-  contact: 'teste'
+  contact: 'teste',
+  about: ,
+  lat: ,
+  lng: ,
+  ID: ,
+  agency-accout: ,
+  back-account: 
 }
 ref.push(data)
 */
