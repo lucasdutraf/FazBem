@@ -1,11 +1,25 @@
+
+
+let latitudes = localStorage.getItem('@institution-lat')
+let longitudes = localStorage.getItem('@institution-lng')
+
+tokensLat = latitudes.split(',')
+tokensLng = longitudes.split(',')
+
+let latInstitution = parseFloat(tokensLat[index])
+let lngnstitution = parseFloat(tokensLng[index])
+
+console.log(latInstitution, lngnstitution)
+
+
 function initMap() {
     
     // pegar a lat e long puxadas do firebase guardadas no localStorage
-    var myLatLng = {lat: -15.899639, lng: -47.771333};
+    var myLatLng = {lat: latInstitution, lng: lngnstitution};
 
     var map = new google.maps.Map(document.getElementById('map'), {
         center: myLatLng,
-        zoom: 18
+        zoom: 10
     });
 
     var marker = new google.maps.Marker({

@@ -18,13 +18,13 @@ sleep(2000).then(() => {
 function getHelpOption() {
 
     if(localStorage.getItem("@help-option") === 'comida')
-        return 'food'
+        return 'alimento'
     if(localStorage.getItem("@help-option") === 'dinheiro')
-        return 'money'
+        return 'dinheiro'
     if(localStorage.getItem("@help-option") === 'remédio')
-        return 'medicine'
+        return 'medicamento'
     if(localStorage.getItem("@help-option") === 'roupa')
-        return 'clothe'
+        return 'roupa'
 
 }
 

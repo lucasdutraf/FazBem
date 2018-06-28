@@ -3,6 +3,8 @@ let index = localStorage.getItem('@indexOfInstitutionsList')
 let names = localStorage.getItem('@institution-names')
 let addresses = localStorage.getItem('@institution-addresses')
 
+let cep = localStorage.getItem("@institution-names")
+
 tokensName = names.split(',')
 tokensAddress = addresses.split(',')
 
