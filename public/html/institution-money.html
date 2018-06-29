@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/institution.css">
+    <link rel="stylesheet" type="text/css" href="../css/donation-general.css">
+    <title>Doação</title>
+</head>
+<header class="container-instituição">
+    <div>
+        <h1 id="title-name"></h1>
+    </div>
+</header>
+    
+<body>
+    
+    
+    <div class ="fundo-liso">
+        
+        <p id="about-inst" class="sobre-instit">
+        </p>   
+
+        <div class="money-donation"> <!-- pegar do firebase-->
+            
+            <div class="money-title">
+                <img src="../img/coins.png" class="money-img"/>
+                <h1 class="money-donation-title">Doe qualquer quantia</h1>
+            </div>
+
+            <div class="key-value">
+                <b class="key">CPF/CNPJ:</b>
+                <h1 id="ID-money" class="value">066.000.999-34</h1>
+            </div>
+
+            <div class="key-value">
+                <b class="key">Número da agência:</b>
+                <h1 id="agency-money" class="value">1234</h1>
+            </div>
+
+            <div class="key-value">
+                <b class="key">Número da conta:</b> 
+                <h1 id="account-money" class="value">12345678-9/<h1>
+            </div>
+        </div>
+
+        <h1 class="send-donation">Localização</h1>
+        <div id="map"></div>    
+        <h1 id="address"></h1>
+    </div>
+
+    <div class="btn">
+        <a href="../index.html" class="floating-btn">
+            <img class="btn-img" src="../img/left-arrow.png"/>
+        </a>
+    </div>
+
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATU-j8JH1Blwx0wUG2ZKQ0Nln04xgjJBQ&callback=initMap"></script>
+    <script src="../js/Institution.js"></script>
+    <script src="../js/InstitutionMoney.js"></script>
+    <script src="../js/GoogleMapsAPI.js"></script>
+</body>
+</html>

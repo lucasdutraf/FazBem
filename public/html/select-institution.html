@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Page Title</title>
+	<title>Lista de instituições</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/institution.css" />
@@ -10,18 +10,25 @@
 	<script src="../js/firebase.js" ></script>
 </head>
 
-<header>
+<header class="container-lista-instituicao">
+	
 	<h1 id="titulo-tipo-de-ajuda"></h1>
+	<div id="bg-loader-firebase" class="loader-bg">
+		<div id="loader-firebase" class="loader" ></div>
+	</div>
 </header>
 
 <body>
 
 	<div class="fundo-liso">
-		<div class="lista-instituicao">
+		<div class="saiba-mais-instit">
+			<img class="care-img" src="../img/care.png"/>
+			<h1 class="saiba-mais-txt">Saiba mais sobre as instituições</h1>
 		</div>
+		<div class="lista-instituicao"></div>
 	</div>
 
 	<script src="../js/firebaseCallback.js"></script>
-	<script src="../js/institutionPage.js"></script>
+	<script src="../js/institutionsPage.js"></script>
 </body>
 </html>

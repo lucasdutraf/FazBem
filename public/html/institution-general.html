@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/institution.css">
+    <link rel="stylesheet" type="text/css" href="../css/donation-general.css">
+    <title>Doação</title>
+</head>
+
+<header class="container-instituição">
+    <div>
+        <h1 id="title-name"></h1>
+    </div>
+</header>
+
+<body>
+ 
+    
+    <div class ="fundo-liso">
+        
+        <p id="about-inst" class="sobre-instit">
+        </p>   
+        <h1 class="send-donation">Envie sua doação para</h1>
+        <div id="map"></div>    
+        <h1 id="address"></h1>
+    </div>
+
+    <div class="btn">
+        <a href="../index.html" class="floating-btn">
+            <img class="btn-img" src="../img/left-arrow.png"/>
+        </a>
+    </div>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATU-j8JH1Blwx0wUG2ZKQ0Nln04xgjJBQ&callback=initMap"></script>
+    <script src="../js/Institution.js"></script>
+    <script src="../js/GoogleMapsAPI.js"></script>
+</body>
+</html>

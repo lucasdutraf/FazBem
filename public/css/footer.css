@@ -1,12 +1,11 @@
 .rodape {
-	
-	
 	padding: 20px;
-	border-top: #000 dashed 2px;
+	border-top: #000 solid 5px;
+
 	margin-top: 20px;
-	background: #222222;
-	
+	background: #222222;	
 }
+
 .rodape h2 {
 
 	padding: 20px;
