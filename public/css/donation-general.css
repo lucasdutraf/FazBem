@@ -155,11 +155,11 @@
         height: 35px;
         margin-top: 14px;
     }
-    
-    .key-value {
 
+    #title-name {
+        font-size: 3.4em;
     }
-
+    
     .key {
         font-size: 2.5em;
     }
